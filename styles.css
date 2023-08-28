@@ -26,6 +26,8 @@
   margin-right: auto;
   height: 60px;
   background-color: rgb(211, 172, 172);
+  direction: rtl;
+  font-size: 32px;
 }
 
 .button {

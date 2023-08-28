@@ -9,33 +9,37 @@
   <body>
     <div class="calc-container">
       <div class="screen-wrapper wrapper">
-        <input class="calc-screen" type="text" />
+        <input class="calc-screen" type="text" id="calc-screen" readonly />
       </div>
       <div class="button-wrapper wrapper">
-        <button class="button" id="mrc">MRC</button>
-        <button class="button" id="m-">M-</button>
-        <button class="button" id="m+">M+</button>
-        <button class="button" id="percent">%</button>
-        <button class="button" id="divide">/</button>
-        <button class="button" id="root">√</button>
-        <button class="button" id="seven">7</button>
-        <button class="button" id="eight">8</button>
-        <button class="button" id="nine">9</button>
-        <button class="button" id="multiply">X</button>
-        <button class="button" id="delete">→</button>
-        <button class="button" id="four">4</button>
-        <button class="button" id="five">5</button>
-        <button class="button" id="six">6</button>
-        <button class="button" id="minus">-</button>
-        <button class="button" id="clear">C</button>
-        <button class="button" id="one">1</button>
-        <button class="button" id="two">2</button>
-        <button class="button" id="three">3</button>
-        <button class="button" id="plus">+</button>
-        <button class="button" id="on">AC</button>
-        <button class="button" id="zero">0</button>
-        <button class="button" id="dot">.</button>
-        <button class="button" id="equals">=</button>
+        <button class="button" id="mrc" onclick="handleMemoCall()">MRC</button>
+        <button class="button" id="m-" onclick="handleMemoMinus()">M-</button>
+        <button class="button" id="m+" onclick="handleMemoPlus()">M+</button>
+        <button class="button" id="percent" onclick="handlePercent()">%</button>
+        <button class="button" id="divide" onclick="handleDivide()">/</button>
+        <button class="button" id="root" onclick="handleRoot()">√</button>
+        <button class="button" id="seven" onclick="handleSeven()">7</button>
+        <button class="button" id="eight" onclick="handleEight()">8</button>
+        <button class="button" id="nine" onclick="handleNine()">9</button>
+        <button class="button" id="multiply" onclick="handleMultiply()">
+          X
+        </button>
+        <button class="button" id="delete" onclick="handleDeleteLastChar()">
+          →
+        </button>
+        <button class="button" id="four" onclick="handleFour()">4</button>
+        <button class="button" id="five" onclick="handleFive()">5</button>
+        <button class="button" id="six" onclick="handleSix()">6</button>
+        <button class="button" id="minus" onclick="handleMinus()">-</button>
+        <button class="button" id="clear" onclick="handleClear()">C</button>
+        <button class="button" id="one" onclick="handleOne()">1</button>
+        <button class="button" id="two" onclick="handleTwo()">2</button>
+        <button class="button" id="three" onclick="handleThree()">3</button>
+        <button class="button" id="plus" onclick="handlePlus()">+</button>
+        <button class="button" id="ac" onclick="handleAllClear()">AC</button>
+        <button class="button" id="zero" onclick="handleZero()">0</button>
+        <button class="button" id="dot" onclick="handleDot()">.</button>
+        <button class="button" id="equals" onclick="handleEquals()">=</button>
       </div>
     </div>
     <script src="script.js"></script>
