@@ -1,0 +1,35 @@
+.calc-container {
+  background-color: slategray;
+  height: 540px;
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.wrapper {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.screen-wrapper {
+  padding-top: 20px;
+}
+
+.calc-screen {
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  background-color: rgb(211, 172, 172);
+}
+
+.button {
+  width: 70px;
+  height: 70px;
+  margin: 3.4px;
+  border-radius: 5px;
+}
